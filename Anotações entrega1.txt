@@ -1,0 +1,109 @@
+Link dos dados:
+
+https://www.gov.br/produtividade-e-comercio-exterior/pt-br/assuntos/comercio-exterior/estatisticas/base-de-dados-bruta
+
+Links de download:
+
+Exportações
+https://balanca.economia.gov.br/balanca/bd/comexstat-bd/ncm/EXP_COMPLETA.zip
+
+Importações
+https://balanca.economia.gov.br/balanca/bd/comexstat-bd/ncm/IMP_COMPLETA.zip
+
+NCM
+https://balanca.economia.gov.br/balanca/bd/tabelas/NCM.csv   
+https://balanca.economia.gov.br/balanca/bd/tabelas/NCM_PPE.csv    PPE - Pauta de Produtos Exportados
+https://balanca.economia.gov.br/balanca/bd/tabelas/NCM_PPI.csv    PPI - Pauta de Produtos Importados
+https://balanca.economia.gov.br/balanca/bd/tabelas/NCM_UNIDADE.csv  Unidades Estatísticas da NCM
+
+
+Paises
+https://balanca.economia.gov.br/balanca/bd/tabelas/PAIS.csv
+
+Via
+https://balanca.economia.gov.br/balanca/bd/tabelas/VIA.csv
+
+UF
+https://balanca.economia.gov.br/balanca/bd/tabelas/UF.csv
+
+
+Tabelas
+Exportações
+CO_ANO VARCHAR(255)
+,CO_MES VARCHAR(255)
+,CO_NCM VARCHAR(255)
+,CO_UNID VARCHAR(255)
+,CO_PAIS VARCHAR(255)
+,SG_UF_NCM VARCHAR(255)
+,CO_VIA VARCHAR(255)
+,CO_URF VARCHAR(255)
+,QT_ESTAT VARCHAR(255)
+,KG_LIQUIDO VARCHAR(255)
+,VL_FOB VARCHAR(255)
+
+
+Importações
+CO_ANO VARCHAR(255)
+,CO_MES VARCHAR(255)
+,CO_NCM VARCHAR(255)
+,CO_UNID VARCHAR(255)
+,CO_PAIS VARCHAR(255)
+,SG_UF_NCM VARCHAR(255)
+,CO_VIA VARCHAR(255)
+,CO_URF VARCHAR(255)
+,QT_ESTAT VARCHAR(255)
+,KG_LIQUIDO VARCHAR(255)
+,VL_FOB VARCHAR(255)
+,VL_FRETE VARCHAR(255)
+,VL_SEGURO VARCHAR(255)
+
+Via
+ CO_VIA VARCHAR(255)
+,NO_VIA VARCHAR(255)
+
+UF
+ CO_UF VARCHAR(255)
+,SG_UF VARCHAR(255)
+,NO_UF VARCHAR(255)
+,NO_REGIAO VARCHAR(255)
+
+Pais
+ CO_PAIS VARCHAR(255)
+,CO_PAIS_ISON3 VARCHAR(255)
+,CO_PAIS_ISOA3 VARCHAR(255)
+,NO_PAIS VARCHAR(255)
+,NO_PAIS_ING VARCHAR(255)
+,NO_PAIS_ESP VARCHAR(255)
+
+NCM UNIDADE
+ CO_UNID VARCHAR(255)
+,NO_UNID VARCHAR(500)
+,SG_UNID VARCHAR(500)
+
+NCM PPI
+ CO_PPI VARCHAR(255)
+,NO_PPI VARCHAR(500)
+,NO_PPI_MIN VARCHAR(500)
+,NO_PPI_ING VARCHAR(500)
+
+NCM PPE
+ CO_PPE VARCHAR(255)
+,NO_PPE VARCHAR(500)
+,NO_PPE_MIN VARCHAR(500)
+,NO_PPE_ING VARCHAR(500)
+
+NCM
+ CO_NCM VARCHAR(255)
+,CO_UNID VARCHAR(255)
+,CO_SH6 VARCHAR(255)
+,CO_PPE VARCHAR(255)
+,CO_PPI VARCHAR(255)
+,CO_FAT_AGREG VARCHAR(255)
+,CO_CUCI_ITEM VARCHAR(255)
+,CO_CGCE_N3 VARCHAR(255)
+,CO_SIIT VARCHAR(255)
+,CO_ISIC_CLASSE VARCHAR(255)
+,CO_EXP_SUBSET VARCHAR(255)
+,NO_NCM_POR VARCHAR(500)
+,NO_NCM_ESP VARCHAR(500)
+,NO_NCM_ING VARCHAR(500)
